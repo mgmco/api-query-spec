@@ -71,4 +71,4 @@ https://api.example.com/users?page=1&perPage=20
 
 ## Implementations
 
- * [Express.js](http://expressjs.com) + [Mongo](https://www.mongodb.org/): [mtimofiiv/express-query-params](https://github.com/mtimofiiv/express-query-params)
+ * [Express.js](http://expressjs.com): [mtimofiiv/express-query-params](https://github.com/mtimofiiv/express-query-params)
