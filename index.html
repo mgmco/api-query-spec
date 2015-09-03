@@ -55,10 +55,10 @@
 
 <p>We use familiar operators - <code>&gt;</code>, <code>&lt;</code>, <code>&gt;=</code>, <code>&lt;=</code> (shown URI-encoded)</p>
 
-<pre><code>https://api.example.com/users?age%3D%3E18
-https://api.example.com/users?age%3D%3C25
-https://api.example.com/users?age%3D%3E%3D18
-https://api.example.com/users?age%3D%3C%3D25
+<pre><code>https://api.example.com/users?age=%3E18
+https://api.example.com/users?age=%3C25
+https://api.example.com/users?age=%3E%3D18
+https://api.example.com/users?age=%3C%3D25
 </code></pre>
 
 <h3>
@@ -84,6 +84,13 @@ https://api.example.com/users?limit=0
 
 <pre><code>https://api.example.com/users?page=1&amp;perPage=20
 </code></pre>
+
+<h3>
+<a id="pagination" class="anchor" href="#pagination" aria-hidden="true"><span class="octicon octicon-link"></span></a>Implementations</h3>
+
+<ul>
+  <li><a href="http://expressjs.com">Express.js</a> + <a href="https://www.mongodb.org/">Mongo</a>: <a href="https://github.com/mtimofiiv/express-query-params">mtimofiiv/express-query-params</a></li>
+</ul>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/mgmco/api-query-spec">API Query Parameter Spec</a> is maintained by <a href="https://github.com/mgmco">mgmco</a>.</span>
