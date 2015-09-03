@@ -39,10 +39,10 @@ https://api.example.com/users?age=18...25
 We use familiar operators - `>`, `<`, `>=`, `<=` (shown URI-encoded)
 
 ```
-https://api.example.com/users?age%3D%3E18
-https://api.example.com/users?age%3D%3C25
-https://api.example.com/users?age%3D%3E%3D18
-https://api.example.com/users?age%3D%3C%3D25
+https://api.example.com/users?age=%3E18
+https://api.example.com/users?age=%3C25
+https://api.example.com/users?age=%3E%3D18
+https://api.example.com/users?age=%3C%3D25
 ```
 
 ### Sorting by a value
@@ -68,3 +68,7 @@ https://api.example.com/users?limit=0
 ```
 https://api.example.com/users?page=1&perPage=20
 ```
+
+## Implementations
+
+ * [Express.js](http://expressjs.com) + [Mongo](https://www.mongodb.org/): [mtimofiiv/express-query-params](https://github.com/mtimofiiv/express-query-params)
