@@ -69,6 +69,14 @@ https://api.example.com/users?limit=0
 https://api.example.com/users?page=1&perPage=20
 ```
 
+### Negation
+
+It should be possible to search for the opposite of a query by adding the `!` operator to it to negate it like so:
+
+```
+https://api.example.com/users?status=!deleted
+```
+
 ## Implementations
 
  * [Express.js](http://expressjs.com): [mtimofiiv/express-query-params](https://github.com/mtimofiiv/express-query-params)
