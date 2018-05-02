@@ -34,6 +34,11 @@ https://api.example.com/users?username=*steve*
 https://api.example.com/users?age=18...25
 ```
 
+### One of (in)
+```
+https://api.example.com/users?friends=12,15,22
+```
+
 ### Greater than + Lesser than (or equal to)
 
 We use familiar operators - `>`, `<`, `>=`, `<=` (shown URI-encoded)
